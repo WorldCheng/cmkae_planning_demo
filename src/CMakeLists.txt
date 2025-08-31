@@ -16,3 +16,12 @@ target_link_libraries(${PROJECT_NAME}
   process
 )
 
+target_include_directories(${PROJECT_NAME} 
+  PUBLIC 
+  ${SHOW_RESULT_DIR}
+)
+
+target_link_libraries(${PROJECT_NAME}
+  PUBLIC
+  show_result
+)

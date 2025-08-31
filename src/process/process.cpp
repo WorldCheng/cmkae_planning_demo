@@ -3,5 +3,5 @@
 using std::cout, std::endl;
 
 void Process::planProcess(){
-  cout << "this is process";
+  cout << "this is process" <<endl;
 }

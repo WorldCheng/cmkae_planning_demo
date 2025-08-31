@@ -1,11 +1,16 @@
 #include "process.h"
+#include "show_result.h"
 
 int main(){
   Process process;
-  
-  process.my_map.mapInfo();
+
   process.planProcess();
+  process.my_map.mapInfo();
   
+  
+  ShowResult s;
+  s.drawResult();
+
   return 0;
 }
 
